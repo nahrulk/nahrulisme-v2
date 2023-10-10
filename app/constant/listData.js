@@ -35,3 +35,22 @@ export const homeValue = [
     detail: "Rating by Reviews",
   },
 ];
+
+export const logosImage = [
+  {
+    images: "./img/logo1.png",
+    alt: `ableCode`,
+  },
+  {
+    images: "./img/logo2.png",
+    alt: "Hisabia",
+  },
+  {
+    images: "./img/logo3.png",
+    detail: "Btix",
+  },
+  {
+    images: "./img/logo4.png",
+    detail: "Noleves",
+  },
+];
