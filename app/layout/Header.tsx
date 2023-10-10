@@ -1,6 +1,4 @@
-import React from "react";
-
-import { navigation } from "@/app/constant/navigation.js";
+import { navigation } from "@/app/constant/listData";
 
 const Header = () => {
   return (
