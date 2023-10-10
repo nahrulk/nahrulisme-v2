@@ -35,7 +35,7 @@ const HomeSection = () => {
         <div className="home__images">
           <div className="home__orbe"></div>
           <div className="home__img">
-            <Image src="/img/home.jpg" alt="home" width={250} height={300} />
+            <img src="/img/home.jpg" alt="home" />
           </div>
         </div>
       </div>

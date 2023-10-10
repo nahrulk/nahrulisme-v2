@@ -322,7 +322,7 @@ button {
   height: 300px;
   overflow: hidden;
   border-radius: 125px 125px 12px 12px;
-  display: inline-flex;
+  /* display: inline-flex; */
   align-items: flex-end;
   bottom: -1.5rem;
   box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
