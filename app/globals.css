@@ -194,18 +194,21 @@ button {
     padding: 1.30rem 3rem;
     border-radius: 1.25rem;
     transition: .4s;
+    flex-wrap: wrap;
   }
 
   .nav__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
   }
 
   .nav__link {
     color: var(--text-color);
     display: flex;
-    padding: 1.5rem;
+    padding: 0.5rem 0.1;
     border-radius: 50%;
   }
 

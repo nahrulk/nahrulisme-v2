@@ -7,13 +7,13 @@ const Header = () => {
     <>
       {/* <!--==================== HEADER ====================--> */}
       <header className="header" id="header">
-        <nav className="nav container__custom">
+        <nav className="nav container__custom sm:flex-wrap">
           <a href="#" className="nav__logo">
             Nahrul K <i className="bx bxs-terminal"></i>
           </a>
 
-          <div className="nav__menu">
-            <ul className="nav__list">
+          <div className="nav__menu h-auto w-full">
+            <ul className="nav__list flex flex-wrap">
               {navigation.map((item) => (
                 <li className="nav__item" key={item.name}>
                   <a href={item.href} className="nav__link">
