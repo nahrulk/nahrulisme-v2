@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "./layout/Header";
 
-const page = () => {
-  return <div>page</div>;
+const Landing = () => {
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
-export default page;
+export default Landing;
