@@ -25,7 +25,6 @@ export default function RootLayout({
         />
         <script src="./main.js" defer />
         <script src="./scrollreveal.min.js" defer />
-        <script src="./swiper-bundle.min.js" defer />
         <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js" defer />
       </head>
 

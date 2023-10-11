@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const LogoSection = () => {
   return (
-    <section className="logos section bg-gradient-to-t ">
+    <section className="logos section ">
       <div className="logos__container container__custom grid__custom ">
         {logosImage.map((item) => (
           <>

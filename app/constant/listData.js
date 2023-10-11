@@ -54,3 +54,36 @@ export const logosImage = [
     detail: "Noleves",
   },
 ];
+
+export const projectList = [
+  {
+    images: "./img/popular1.jpg",
+    price: `Begawe Ticketing App`,
+    title: "btix.co.id",
+    desc: "this is btix app",
+  },
+  {
+    images: "./img/popular2.jpg",
+    price: `Tujju Images AI`,
+    title: "buatmenarik.com",
+    desc: "this is Tujju images AI",
+  },
+  {
+    images: "./img/popular3.jpg",
+    price: `Sukma App`,
+    title: "example.com",
+    desc: "this is Sukma",
+  },
+  {
+    images: "./img/popular4.jpg",
+    price: `Noleves App`,
+    title: "Coming Son",
+    desc: "this is noleves",
+  },
+  {
+    images: "./img/popular4.jpg",
+    price: `Rana Coffee App`,
+    title: "Coming Soon",
+    desc: "this is Rana Coffee",
+  },
+];

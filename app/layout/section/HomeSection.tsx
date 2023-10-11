@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HomeSection = () => {
   return (
-    <section className="home section">
+    <section className="home section" id="home">
       <div className="home__container container__custom grid__custom">
         <div className="home__data">
           <h1 className="home__title">
