@@ -1,13 +1,16 @@
 "use client";
 
-interface Props {
-  children?: React.ReactNode;
-}
+import Navbar from "@/components/Navbar";
 
-interface TemplateProps {
+type TemplateProps = {
   children: React.ReactNode;
-}
+};
 
-export default function Template({ children }: TemplateProps): React.ReactNode {
-  return <>{children}</>;
+export default function Template({ children }: TemplateProps) {
+  return (
+    <div className="app">
+      <Navbar />
+      {children}
+    </div>
+  );
 }

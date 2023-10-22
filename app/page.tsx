@@ -1,20 +1,18 @@
-import React from "react";
-import Header from "./layout/Header";
-import HomeSection from "./layout/section/HomeSection";
-import LogoSection from "./layout/section/LogoSection";
-import PopularSection from "./layout/section/PopularSection";
+"use client";
 
-const Landing = () => {
+import { useTheme } from "next-themes";
+import { Button } from "@/components/ui/button";
+import { About, Footer, Header, Skills, Testimonial, Work } from "@/container";
+
+export default function Home() {
   return (
     <>
       <Header />
-      <main className="main">
-        <HomeSection />
-        <LogoSection />
-        <PopularSection />
-      </main>
+      <About />
+      <Work />
+      <Skills />
+      <Testimonial />
+      <Footer />
     </>
   );
-};
-
-export default Landing;
+}
