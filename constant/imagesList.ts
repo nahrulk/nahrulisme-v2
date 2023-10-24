@@ -23,7 +23,7 @@ const localImagesList = {
   about03: require("../public/assets/about03.png"),
   about04: require("../public/assets/about04.png"),
   profile: require("../public/assets/profile.png"),
-  circle: require("../public/assets/circle.svg"),
+  // circle: require("../public/assets/circle.svg"),
   logo: require("../public/assets/logo.png"),
   adidas: require("../public/assets/adidas.png"),
   amazon: require("../public/assets/amazon.png"),
