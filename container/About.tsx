@@ -8,8 +8,8 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">
-        I Know that <span>Good Design</span> <br />
-        means <span>Good Business</span>
+        I Know that <span>Knowledge</span> <br />
+        means <span>Wisdom</span>
       </h2>
 
       <div className="app__profiles">
@@ -25,8 +25,7 @@ const About = () => {
             <Image
               src={about.imgUrl}
               alt={about.title}
-              width={500}
-              height={500}
+             
             />
             <h2 className="bold-text" style={{ marginTop: 20 }}>
               {about.title}

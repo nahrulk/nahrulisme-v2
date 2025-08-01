@@ -46,23 +46,23 @@ export const testimonial = [
 
 export const abouts = [
   {
-    title: "Web Development",
-    description: "This is web i develop",
+    title: "Content and Copywriter",
+    description: "I like to made a content or writing",
     imgUrl: localImagesList.about01,
   },
   {
-    title: "Web Development",
-    description: "This is web i develop",
+    title: "Frontend Web Developers",
+    description: "i'm a juniow web developer. i always learn",
     imgUrl: localImagesList.about02,
   },
   {
-    title: "Web Development",
-    description: "This is web i develop",
+    title: "Leadership and Teamwork",
+    description: "i have experience at organisation and awardee of Bank Indonesia Schoolarship",
     imgUrl: localImagesList.about03,
   },
   {
-    title: "Web Development",
-    description: "This is web i develop",
+    title: "Photo and Videografy",
+    description: "I have experience as a media division for some years",
     imgUrl: localImagesList.about04,
   },
 ];
@@ -145,61 +145,54 @@ export const worksDummy = [
 export const skillList = [
   {
     name: "HTML",
-    bgColor: "#2196F3", // Material Blue
+    bgColor: "#d8f999", // Material Blue
     icon: localImagesList.html,
   },
   {
     name: "CSS",
-    bgColor: "#FFC107", // Material Amber
+    bgColor: "#dcfce7", // Material Amber
     icon: localImagesList.css,
   },
   {
     name: "Javascript",
-    bgColor: "#4CAF50", // Material Green
+    bgColor: "#fef9c2", // Material Green
     icon: localImagesList.javascript,
   },
   {
     name: "MUI",
-    bgColor: "#E91E63", // Material Pink
+    bgColor: "#ffe2e2", // Material Pink
     icon: localImagesList.mu5,
   },
   {
     name: "React",
-    bgColor: "#FF5722", // Material Light Blue
+    bgColor: "#dff2fe", // Material Light Blue
     icon: localImagesList.react,
   },
   {
     name: "Git",
-    bgColor: "#03A9F4", // Material Deep Orange
+    bgColor: "#e0e7ff", // Material Deep Orange
     icon: localImagesList.git,
   },
+  
 ];
 
 export const experienceList = [
   {
-    year: "2020",
+    year: "2025",
     works: [
       {
-        name: "Senior Frontend Developer",
-        company: "eCommerce Co.",
-      },
-      {
-        name: "Product Designer",
-        company: "InnoTech Startups",
+        name: "Technical Support",
+        company: "PARKEE",
       },
     ],
   },
   {
-    year: "2021",
+    year: "2024",
     works: [
       {
-        name: "Lead Frontend Developer",
-        company: "Tech Innovations Ltd.",
-      },
-      {
-        name: "Web Designer",
-        company: "PixelPerfect Creations",
-      },
+        name: "IT Assistant",
+        company: "Easybook",
+      }
     ],
   },
 ];

@@ -1,9 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+@theme {
+  --font-base: "DM Sans", sans-serif;
+}
 
 @layer base {
   :root {
+    --font-base: "DM Sans", sans-serif;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -99,7 +106,7 @@
   /* Start of APP.css */
 
   .app {
-    @apply bg-[var(--primary-color)];
+    @apply bg-[var(--primary-color)] font-[var(--font-base)];
   }
 
   .app__whitebg {
@@ -131,7 +138,7 @@
   }
 
   .head-text {
-    @apply md:text-4xl text-3xl font-extrabold text-center text-[var(--black-color)] capitalize;
+    @apply xl:text-4xl text-lg font-bold text-center text-[var(--black-color)] capitalize tracking-wider;
   }
 
   .head-text span {
@@ -139,11 +146,11 @@
   }
 
   .p-text {
-    @apply text-[0.8rem] text-left text-[var(--gray-color)] leading-6 2xl:text-2xl;
+    @apply text-[0.8rem] text-left text-[var(--gray-color)] leading-6 ;
   }
 
   .bold-text {
-    @apply text-sm md:text-base font-extrabold text-[var(--black-color)] 2xl:text-3xl;
+    @apply text-sm md:text-base font-extrabold text-[var(--black-color)] ;
   }
 
   .app__social {
@@ -178,12 +185,12 @@
   }
 
   .app__navbar-logo {
-    @apply flex justify-start items-center;
+    @apply flex justify-start items-center h-5 w-24;
   }
 
-  .app__navbar-logo img {
-    @apply w-20 h-5 2xl:w-44 2xl:h-5;
-  }
+  /* .app__navbar-logo img {
+    @apply w-20 2xl:w-44 ;
+  } */
 
   .app__navbar-links {
     @apply hidden md:flex flex-1 justify-center items-center list-none list-image-none;
@@ -242,15 +249,15 @@
   }
 
   .app__profiles {
-    @apply flex justify-center items-center flex-wrap mt-8;
+    @apply flex justify-start items-start flex-wrap mt-8;
   }
 
   .app__profile-item {
-    @apply w-[190px] flex justify-start items-start flex-col m-8 2xl:w-[370px] 2xl:my-8 2xl:mx-16;
+    @apply w-[170px] flex justify-start items-start flex-col m-8 2xl:w-[220px] 2xl:my-8 2xl:mx-16;
   }
 
   .app__profile-item img {
-    @apply w-full h-[170px] rounded-2xl object-cover 2xl:h-[320px];
+    @apply w-full h-[170px] rounded-2xl object-cover 2xl:h-[220px];
   }
 
   /* End of About.css */
@@ -270,15 +277,15 @@
   }
 
   .app__header {
-    @apply pt-24 px-4 pb-8 flex flex-col lg:flex-row lg:px-8 md:pb-0  h-full w-full flex-1;
+    @apply pt-24 px-8 pb-0 flex flex-col xl:flex-row xl:px-8 md:pb-0  h-full w-full flex-1;
   }
 
   .app__header-info {
-    @apply w-full lg:w-auto mr-0 md:my-0 mx-8 h-full items-start justify-start flex-col flex flex-[0.65];
+    @apply w-full xl:w-auto mr-0 md:my-0 mx-8 h-full items-start justify-start flex-col flex flex-[0.65];
   }
 
   .app__header-badge {
-    @apply justify-start items-start lg:justify-end lg:items-end flex-col flex w-full;
+    @apply justify-start items-start  flex-col flex w-full;
   }
 
   .app__header-badge span {
@@ -299,7 +306,7 @@
   }
 
   .app__header-circles {
-    @apply w-full flex flex-row flex-wrap ml-0 lg:flex-col lg:flex-nowrap lg:w-auto lg:ml-4 justify-evenly flex-[0.75] items-start h-full;
+    @apply w-full flex flex-row flex-wrap ml-0 xl:flex-col xl:flex-nowrap xl:w-auto xl:ml-4 justify-evenly flex-[0.75] items-start h-full;
   }
 
   .app__header-circles div {
@@ -313,15 +320,15 @@
   /*  circles with different height & width */
 
   .app__header-circles div:nth-child(1) {
-    @apply w-24 h-24 2xl:w-48 2xl:h-48;
+    @apply w-[100px] h-[100px] 2xl:w-[200px] 2xl:h-[200px];
   }
 
   .app__header-circles div:nth-child(2) {
-    @apply w-40 h-40 m-7 2xl:w-96 2xl:h-96;
+    @apply w-24 h-24 m-7 2xl:w-72 2xl:h-72;
   }
 
   .app__header-circles div:nth-child(3) {
-    @apply w-16 h-16 2xl:w-40 2xl:h-40;
+    @apply w-8 h-8 2xl:w-28 2xl:h-28;
   }
 
   .app__header-img {
@@ -493,11 +500,11 @@
   }
 
   .app__work-portfolio .app__work-item {
-    @apply w-full m-4 2xl:w-[470px] 2xl:p-5 2xl:rounded-xl hover:shadow-[0_0_25px_0_rgba(0,0,0,0.2)] md:w-64 flex flex-col md:m-8 p-4 rounded-lg bg-white text-black cursor-pointer transition-all ease-in;
+    @apply w-full m-4 hover:shadow-[0_0_25px_0_rgba(0,0,0,0.2)] md:w-64 flex flex-col md:m-8 p-4 rounded-lg bg-white text-black cursor-pointer transition-all ease-in;
   }
 
   .app__work-img {
-    @apply 2xl:h-80 h-56 w-full relative;
+    @apply  h-56 w-full relative;
   }
 
   .app__work-img img {
