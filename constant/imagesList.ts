@@ -32,6 +32,22 @@ const localImagesList = {
   nb: require("../public/assets/nb.png"),
   skype: require("../public/assets/skype.png"),
   spotify: require("../public/assets/spotify.png"),
+  easybook: require("../public/assets/easybook.png"),
+  parkee: require("../public/assets/parkee.png"),
+  btix: require("../public/assets/btix.png"),
+  tujju: require("../public/assets/tujju.png"),
+  ablecode: require("../public/assets/ableCode.png"),
+  davinci: require("../public/assets/da-vinci.jpg"),
+  curie: require("../public/assets/curie.jpg"),
+  einstein: require("../public/assets/albert-einstein.jpg"),
+  galileo: require("../public/assets/galileo-galilei.jpeg"),
+  newton: require("../public/assets/isaac-newton.jpg"),
+  fortujju: require("../public/assets/tujju.jpeg"),
+  forbtix: require("../public/assets/btix.jpeg"),
+  fortok: require("../public/assets/rultok.png"),
+  forblog: require("../public/assets/rulblog.png"),
+  forasc: require("../public/assets/ascmarket.png"),
+  cover: require("../public/assets/cover.png")
 };
 
 export default localImagesList;

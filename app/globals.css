@@ -197,7 +197,7 @@
   }
 
   .app__navbar-links li {
-    @apply my-0 mx-4 cursor-pointer flex-col hover:underline hover:bg-accent hover:text-accent-foreground;
+    @apply my-0 mx-4 cursor-pointer flex-col hover:underline hover:bg-transparent hover:text-white ;
   }
 
   .app__navbar-links button {
@@ -249,7 +249,7 @@
   }
 
   .app__profiles {
-    @apply flex justify-start items-start flex-wrap mt-8;
+    @apply flex justify-center items-start flex-wrap mt-8;
   }
 
   .app__profile-item {
@@ -277,7 +277,7 @@
   }
 
   .app__header {
-    @apply pt-24 px-8 pb-0 flex flex-col xl:flex-row xl:px-8 md:pb-0  h-full w-full flex-1;
+    @apply pt-24 px-8 pb-0 flex flex-col xl:flex-row xl:px-16 md:pb-0  h-full w-full flex-1;
   }
 
   .app__header-info {
@@ -420,7 +420,7 @@
   }
 
   .app__testimonial-item {
-    @apply flex flex-col md:w-full lg:w-3/5 min-h-[320px] bg-[var(--white-color)] lg:flex-row p-8 rounded-2xl shadow-[0_0_30px_0_rgba(0,0,0,0.1)] transition-all ease-in-out 2xl:min-h-[450px];
+    @apply flex flex-col md:w-full 2xl:w-3/5 min-h-[320px] bg-[var(--white-color)] lg:flex-row p-8 rounded-2xl shadow-[0_0_30px_0_rgba(0,0,0,0.1)] transition-all ease-in-out 2xl:min-h-[450px];
   }
 
   .app__testimonial-item img {
@@ -432,7 +432,7 @@
   }
 
   .app__testimonial-content p {
-    @apply 2xl:text-3xl 2xl:leading-[3.5rem] text-sm leading-8 text-[var(--black-color)];
+    @apply 2xl:leading-8 text-xl leading-8 text-[var(--black-color)];
   }
 
   .app__testimonial-content h4 {
@@ -448,7 +448,7 @@
   }
 
   .app__testimonial-btns div {
-    @apply 2xl:w-24 2xl:h-24 w-12 h-12 rounded-full bg-[var(--white-color)] m-4 transition-all ease-in-out hover:bg-[var(--secondary-color)];
+    @apply  w-12 h-12 rounded-full bg-[var(--white-color)] m-4 transition-all ease-in-out hover:bg-[var(--secondary-color)];
   }
 
   .app__testimonial-btns div:hover svg {
@@ -456,7 +456,7 @@
   }
 
   .app__testimonial-btns div svg {
-    @apply 2xl:w-11 2xl:h-11 w-5 h-5 text-[var(--secondary-color)];
+    @apply w-5 h-5 text-[var(--secondary-color)];
   }
 
   .app__testimonial-brands {
@@ -508,7 +508,7 @@
   }
 
   .app__work-img img {
-    @apply w-full h-full rounded-lg object-cover;
+    @apply w-full h-full rounded-lg object-fill;
   }
 
   .app__work-hover {
@@ -560,7 +560,7 @@
   }
 
   .app__footer-cards .app__footer-card a {
-    @apply no-underline font-medium;
+    @apply no-underline font-medium mx-2;
   }
 
   .app__footer-cards .app__footer-card:last-child {

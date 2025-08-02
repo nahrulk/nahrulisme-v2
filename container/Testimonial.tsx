@@ -73,11 +73,11 @@ const Testimonial = () => {
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5, type: "tween" }}
-            key={brand._id}
+            key={brand?._id || 0}
           >
             <Image
-              src={brand.imgUrl}
-              alt={brand.name}
+              src={brand?.imgUrl}
+              alt={brand?.name || ""}
               width={500}
               height={500}
             />

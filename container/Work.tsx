@@ -48,6 +48,7 @@ const Work = () => {
                 alt={work.name}
                 width={500}
                 height={500}
+                
               />
 
               <motion.div

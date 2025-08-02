@@ -29,7 +29,7 @@ const Footer = () => {
             width={500}
             height={500}
           />
-          <a href="mailto:hello@micael.com" className="p-text">
+          <a href="mailto:khayattullah73@gmail.com" className="p-text">
             khayattullah73@gmail.com
           </a>
         </div>
@@ -40,13 +40,13 @@ const Footer = () => {
             width={500}
             height={500}
           />
-          <a href="tel:+6287762804486" className="p-text">
+          <a href="https://wa.me/087762804486" className="p-text">
             +62 877 6280 4486
           </a>
         </div>
       </div>
 
-      {!isFormSubmitted ? (
+      {/* {!isFormSubmitted ? (
         <div className="app__footer-form app__flex">
           <div className="app__flex">
             <input
@@ -89,7 +89,7 @@ const Footer = () => {
         <div>
           <h3 className="head-text">Thank you for getting in touch!</h3>
         </div>
-      )}
+      )} */}
     </>
   );
 };
