@@ -2,7 +2,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import localImagesList from "@/constant/imagesList";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "I am confident that my skills and professional background are an excellent match for your team. You can find more details in my profile.",
   metadataBase: new URL("https://nahrulk.pw"),
   openGraph :{
-    images : `${localImagesList.cover}`,
+    images : ["/assets/cover.png"],
   },
 };
 
